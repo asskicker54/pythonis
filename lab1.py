@@ -128,27 +128,27 @@ def task10():
         operation = input()
 
         if operation == "+":
-            print(int(x1) + int(input()))
+            print(int(x1) + int(input()), end = "\n\n")
         elif operation == "*":
-            print(int(x1) * int(input()))
+            print(int(x1) * int(input()), end = "\n\n")
         elif operation == "-":
-            print(int(x1) - int(input()))
+            print(int(x1) - int(input()), end = "\n\n")
         elif operation == "/":
             x2 = int(input())
             if x2 != 0:
-                print(int(x1) / x2)
+                print(int(x1) / x2, end = "\n\n")
             else:
-                print("Error")
+                print("Error", end = "\n\n")
             del x2
         elif operation == "%":
             x2 = int(input())
             if x2 != 0:
-                print(int(x1) % x2)
+                print(int(x1) % x2, end = "\n\n")
             else:
-                print("Error")
+                print("Error", end = "\n\n")
             del x2
         elif operation == "!":
-            print(math.factorial(int(x1)))
+            print(math.factorial(int(x1), end = "\n\n"))
         elif operation == "x":
             print(x1)
             
@@ -184,4 +184,4 @@ def task13():
         print(symb + " " * (m - 2) + symb)
     print(symb * m)
 
-
+task13()
