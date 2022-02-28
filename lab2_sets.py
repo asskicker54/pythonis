@@ -1,22 +1,22 @@
 import random
 def task1():
     a = [random.randint(0,10) for i in range(10)]
-    #print(a)
+    print(a)
     print(len(set(a)))
 
 def task2():
     a = [random.randint(0,10) for i in range(10)]
     m = [random.randint(0,10) for i in range(10)]
-    #print(a)
-    #print(m)
+    print(a)
+    print(m)
 
     print(len(set(a) & set(m)))
 
 def task3():
     a = [random.randint(0,10) for i in range(10)]
     m = [random.randint(0,10) for i in range(10)]
-    #print(a)
-    #print(m)
+    print(a)
+    print(m)
 
     print(sorted(list(set(a) & set(m))))
 

@@ -87,10 +87,9 @@ def task9():
 
         a1.append(a1_in)
         a2.append(a2_in)
-
     for i in range(n):
         for j in range(i + 1, n):
-            if a1[i] == a2[j] or a1[i] == a2[j] or abs(a1[i] - a2[j]) == abs(a1[i] - a2[j]):
+            if a1[i] == a1[j] or a2[i] == a2[j] or abs(a1[i] - a1[j]) == abs(a2[i] - a2[j]):
                 flag = False
 
     if flag:
@@ -99,3 +98,4 @@ def task9():
         print('YES')
 
 
+task9()
