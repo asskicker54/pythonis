@@ -1,6 +1,8 @@
 def palindrome(s):
     s = list(s.lower().replace(" ", ""))
     if s == s[::-1]:
-        return "palindrom"
+        print("palindrom")
     else:
-        return "not palindrome"
+        print("not palindrome")
+
+palindrome(input())

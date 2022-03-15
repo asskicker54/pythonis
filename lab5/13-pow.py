@@ -4,4 +4,4 @@ def power(a, n):
     else:
         return a * power(a, n - 1)
 
-print(power(2, 10))
+print(power(2, 5))
