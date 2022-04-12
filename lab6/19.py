@@ -1,6 +1,3 @@
-from numpy import multiply
-
-
 def check_password(password):
     def check(func):
         def wrapper(*args, **kwargs):
